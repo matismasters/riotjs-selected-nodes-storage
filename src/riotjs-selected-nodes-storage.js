@@ -1,5 +1,3 @@
-// Version 0.1
-
 class SelectedNodesStorage {
 
   constructor(opts) {
@@ -9,8 +7,8 @@ class SelectedNodesStorage {
     this.debug           = opts.debug == 'true';
 
     this.storage[this.rootBucket] = {
-      "selectedNodes": [], 
-      "selectedNodesIds": [] 
+      "selectedNodes": [],
+      "selectedNodesIds": []
     };
   }
 
@@ -29,7 +27,7 @@ class SelectedNodesStorage {
       return true;
     } else {
       this.logMessage('Node already selected');
-      
+
       return false;
     }
   }
@@ -75,5 +73,3 @@ class SelectedNodesStorage {
     return this.findNodeIndex(nodeId) != -1;
   }
 }
-
-riot.customStateStorage = {};

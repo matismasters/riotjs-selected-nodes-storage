@@ -1,0 +1,26 @@
+{
+  "name": "riotjs-selected-nodes-storage",
+  "version": "1.0.0",
+  "description": "A Javascript class to handle very simple storage of nodes for 'selected options' of multiselect controls",
+  "main": "riotjs-selected-nodes-storage.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/matismasters/riotjs-selected-nodes-storage.git"
+  },
+  "keywords": [
+    "js"
+  ],
+  "author": "Matis <matis@matis.io>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/matismasters/riotjs-selected-nodes-storage/issues"
+  },
+  "homepage": "https://github.com/matismasters/riotjs-selected-nodes-storage#readme",
+  "devDependencies": {
+    "webpack": "^4.4.1",
+    "webpack-cli": "^2.0.13"
+  }
+}
